@@ -63,7 +63,7 @@ export const Projects = () => {
                 ))}
               </div>
               <a
-                href="#"
+                href="https://github.com/maxeagan22/maxchain-java"
                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
               >
                 View Project →
