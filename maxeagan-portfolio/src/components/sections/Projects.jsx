@@ -95,7 +95,7 @@ export const Projects = () => {
                 ))}
               </div>
               <a
-                href="#"
+                href="https://maxeagan22-gamehub.vercel.app/"
                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
               >
                 View Project →
