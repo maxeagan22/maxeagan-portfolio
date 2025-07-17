@@ -37,12 +37,24 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              <a
-                href="#"
-                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-              >
-                View Project →
-              </a>
+              <div className="flex gap-4">
+                <a
+                  href="#"
+                  className="text-blue-400 hover:text-blue-300 transition-colors underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Project →
+                </a>
+                <a
+                  href="https://github.com/maxeagan22/maxeagan-resturaunt-review-platform-spring-react"
+                  className="text-blue-400 hover:text-blue-300 transition-colors underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Code →
+                </a>
+              </div>
             </div>
 
             {/* Maxchain */}
@@ -64,9 +76,11 @@ export const Projects = () => {
               </div>
               <a
                 href="https://github.com/maxeagan22/maxchain-java"
-                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                className="text-blue-400 hover:text-blue-300 transition-colors underline"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                View Project →
+                View Code →
               </a>
             </div>
 
@@ -82,7 +96,7 @@ export const Projects = () => {
                   "React",
                   "TypeScript",
                   "RAWG API",
-                  "Chakara UI",
+                  "Chakra UI",
                   "React Query",
                   "React Router",
                 ].map((tech, key) => (
@@ -94,12 +108,24 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              <a
-                href="https://maxeagan22-gamehub.vercel.app/"
-                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-              >
-                View Project →
-              </a>
+              <div className="flex gap-4">
+                <a
+                  href="https://maxeagan22-gamehub.vercel.app/"
+                  className="text-blue-400 hover:text-blue-300 transition-colors underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Project →
+                </a>
+                <a
+                  href="https://github.com/maxeagan22/gamehub"
+                  className="text-blue-400 hover:text-blue-300 transition-colors underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Code →
+                </a>
+              </div>
             </div>
           </div>
         </div>
