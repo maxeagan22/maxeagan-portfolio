@@ -118,7 +118,7 @@ export const Projects = () => {
                   View Project →
                 </a>
                 <a
-                  href="https://github.com/maxeagan22/gamehub"
+                  href="https://github.com/maxeagan22/maxeagan22-game-hub"
                   className="text-blue-400 hover:text-blue-300 transition-colors underline"
                   target="_blank"
                   rel="noopener noreferrer"
