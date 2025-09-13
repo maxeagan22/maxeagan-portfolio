@@ -21,6 +21,9 @@ export const About = () => {
     "ExpressJS",
     "Tailwind CSS",
     "MySQL",
+    "MongoDB",
+    "PostgreSQL",
+    "Elasticsearch",
   ];
 
   return (
@@ -34,11 +37,11 @@ export const About = () => {
             About Me
           </h2>
 
-          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all mb-8">
             <p className="text-gray-300 mb-6">
-              Passionate developer eager to build scalable web applications and
-              contribute to innovative solutions through hands-on learning and
-              real-world projects.
+              Passionate software developer focused on building scalable web
+              applications, writing maintainable code, and delivering measurable
+              results through real-world projects and collaborative teamwork.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -86,7 +89,9 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          {/* Stack Education above Work Experience */}
+          <div className="flex flex-col gap-6 mt-8">
+            {/* Education */}
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
@@ -103,30 +108,63 @@ export const About = () => {
               </ul>
             </div>
 
+            {/* Work Experience */}
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    Merchandiser at Breakthru Beverage Missouri (July 2023 -
-                    July 2025)
+                    Dairy Department Manager at Hy-Vee (Jul 2025 - Present)
                   </h4>
-                  <p>
-                    Managed retail product displays, coordinated with store
-                    staff and sales reps, and ensured brand consistency across
-                    multiple locations.
-                  </p>
+                  <ul className="list-disc list-inside ml-4">
+                    <li>
+                      Increased dairy sales by ~5% over one quarter through
+                      targeted promotions and optimized product placement.
+                    </li>
+                    <li>
+                      Reduced waste by ~10% while supervising 5 associates,
+                      improving team productivity by ~12%.
+                    </li>
+                    <li>
+                      Streamlined ordering and inventory tracking, reducing
+                      out-of-stock instances by ~8%.
+                    </li>
+                  </ul>
                 </div>
                 <div>
                   <h4 className="font-semibold">
-                    Retail Associate at Hy-Vee (2019 – Present)
+                    Merchandiser at Breakthru Beverage Missouri (Jul 2023 - Jul
+                    2025)
                   </h4>
-                  <p>
-                    Delivered consistent, high quality service in a fast-paced
-                    retail environment. Adapted to many different roles across
-                    sales, inventory, and front-end operations, collaborating
-                    with different teams to support day-to-day store operations.
-                  </p>
+                  <ul className="list-disc list-inside ml-4">
+                    <li>
+                      Managed merchandising across 3 high-volume accounts,
+                      improving product availability by ~12%.
+                    </li>
+                    <li>
+                      Maintained 95% compliance with brand standards by auditing
+                      displays and optimizing product placement.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold">
+                    Retail Associate at Hy-Vee (Apr 2019 - Jul 2025)
+                  </h4>
+                  <ul className="list-disc list-inside ml-4">
+                    <li>
+                      Improved department efficiency by ~10% over 3 months
+                      through multi-department support.
+                    </li>
+                    <li>
+                      Mentored 12+ new employees, reducing onboarding ramp-up
+                      time by ~10% within the first month.
+                    </li>
+                    <li>
+                      Increased customer satisfaction scores by ~8% over 6
+                      months through proactive service and collaboration.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
